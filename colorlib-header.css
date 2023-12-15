@@ -1,0 +1,194 @@
+body{
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:fixed;
+}
+.colorlib-top{
+    display:grid;
+    grid-template-columns:2.4fr 2.4fr  2.4fr 2.4fr  2.4fr;
+    background-color: rgba(41, 38, 38, 0.95);
+    margin-top: -12px;
+    height: 65px;
+    font-family: arial;
+    margin-left: -10px;
+    margin-right: -10px;
+    position:fixed;
+    top:0; 
+}
+.brand-main{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.btn-top{
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr  2.4fr 2.4fr  2.4fr;
+    color: rgb(102, 104, 106);
+    font-size: 30px;
+}
+.brand-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 41px;
+    margin-left:13px;
+    letter-spacing:-1px;
+    width: 160px;
+    color: white;
+}
+.sub-brand-top{
+    background-color: rgba(22, 19, 19, 0.893);
+    color: rgb(119, 114, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    font-size: 16px;
+}
+.btn-top span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi-cart3{
+    background-color: green;
+    color: white;
+}
+.header-top{
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr  2.4fr 2.4fr;
+    margin-top:80px;
+    margin-left: 100px;
+    margin-right:40px;
+    font-family:sans-serif;
+    color: white;
+}
+.academia{
+    font-size:29px;
+    font-weight:800;
+}
+.online{
+    font-size:12px;
+}
+.day-time{
+    font-size: 40px;
+    margin-right: 15px;
+}
+.header-timer{
+    display: flex;
+}
+.timer-day{
+    text-align:justify;
+}
+.day{
+    line-height:30px;
+}
+.icons span{
+    border: 1px solid rgb(204, 207, 207);
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(204, 207, 207);
+    color: rgb(13, 190, 160);
+}
+.header-icon{
+    margin-left: 50px;
+    margin-top:18px;
+}
+nav{
+    padding:22px;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 40px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    background-color:rgba(210, 222, 222, 0.224) ;
+    color: white;
+    font-family: arial;
+}
+nav div{
+    margin-left: -40px;
+    letter-spacing: 1px;
+}
+.nav-get{
+    padding: 22px;
+    background-color:rgb(13,190,160) ;
+    margin-right: -190px;
+}
+.header-bottom{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 50%;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.bottom-welcome{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    word-spacing:5px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.bottom-best{
+    display: inline-block;
+    font-size: 40px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+.bottom-far{
+    display: inline-block;
+    font-size: 14px;
+    word-spacing: 3px;
+    line-height:30px;
+    color: aliceblue;
+    }
+.bottom-btn{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: arial;
+    font-size: 12px;
+}
+.btn-get{
+    background-color:rgb(13,190,160)  ;
+    padding:20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn-view{
+    color:rgb(13,190,160);
+    padding: 20px;
+   background-color:white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+header{
+    height:700px;
+}
+.academia:hover{
+    color: rgb(13,190,160);
+    cursor: pointer;
+    text-shadow: 3px 3px 3px rgb(117, 112, 112);
+    font-weight: 800;
+}
+.icons span:hover{
+    color: white;
+    background-color: rgb(13,190,160);
+    cursor: pointer;
+    box-shadow: 3px 3px 3px gray;
+}
+nav div:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(145, 252, 236);
+    text-shadow: 3px 3px 3px rgba(87, 203, 245, 0.779);
+}
+.bottom-btn:hover{
+    cursor: pointer;
+}
+.card:hover{
+    color:  rgba(217, 44, 44, 0.842);
+    background-color:rgba(7, 102, 85, 0.795);
+}

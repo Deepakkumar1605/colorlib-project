@@ -1,0 +1,80 @@
+footer{
+    font-family: sans-serif;
+    background-color: rgb(232, 226, 226);
+    width: 101%;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    height:520px;
+}
+.footer-title{
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.footer-brand{
+    margin-top:100px;
+}
+.footer-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    font-size: 14px;
+    background-color: rgb(240, 233, 230);
+}
+.footer-academia{
+    font-size: 28px;
+    font-weight:800;
+}
+.footer-online{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(59, 167, 131);
+}
+.footer-a{
+    font-size: 16px;
+    margin-top: 30px;
+    display: inline-block;
+    line-height:30px;
+    color: rgb(138, 133, 133);
+}
+.footer-icon span{
+   font-size: 20px;
+   padding:10px;
+   color: white;
+   border-radius: 50%;
+   display: inline-block;
+   margin-top: 10px;
+   margin-right: 8px;
+   background-color: rgb(59, 167, 132);
+}
+.footer-heading{
+    margin-top: 110px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 15px;
+}
+.footer-subheading{
+    margin-top: 50px;
+}
+.footer-subheading span{
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.card-browse:hover{
+    background-color: rgb(13,190,160);
+    color: white;
+}
+.card-browse-icon:hover{
+    background-color: rgb(13,190,160);
+    color: white;
+}
+.bi-send-fill:hover{
+    cursor: pointer;
+    color: black;
+}
+.footer-title{
+    cursor: pointer;
+}

@@ -1,0 +1,155 @@
+section{
+    background-color: white;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family:sans-serif;
+    height:2200px;
+}
+.section-head{
+    height:900px;
+}
+.card{
+    height: 150px;
+    width:40%;
+    float: right;
+    margin-right:138px;
+    margin-top: 10px;
+    background-color: rgb(250, 250, 250);
+
+}
+.main-img{
+    height:900px;
+    width:40% ;
+    margin-left:110px;
+    float: left;
+}
+.features{
+    display: inline-block;
+    margin-left:50px;
+    margin-top: 80px;
+    font-weight: 600;
+}
+.features-learn{
+    color:rgb(13,190,160);
+    font-size: 16px;
+}
+.features-benefit{
+    font-size: 45px;
+    display: inline-block;
+    line-height:60px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.card-body{
+    display: flex;
+}
+.card-icon{
+    font-size: 50px;
+    padding: 35px;
+    color:rgb(13,190,160)
+}
+.card-body-top{
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom:20px;
+    display: inline-block;
+    font-size: 16px;
+}
+.card-body-bottom{
+    display: inline-block;
+    line-height:35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(186, 179, 179);
+}
+.colorlib1{
+    height:300px;
+    width: 101%;
+    margin-left: -8px;
+}
+.section-bottom{
+    font-family: sans-serif;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.title-course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-weight: bold;
+    margin-top:150px;
+}
+.title-browse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight:600;
+    letter-spacing: -1px;
+}
+.card-xyz{
+    margin-top: 100px;
+}
+.card-browse1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    }
+.card-browse{
+    height:250px;
+    width:200px;
+    margin-bottom: 10px;
+    border-radius:4px;
+    background-color: rgb(246, 250, 248);
+}
+.card-browse-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90px ;
+    font-weight: bold;
+    text-align: center;
+}
+.card-browse-icon{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: rgb(11, 153, 125);
+}
+main{
+    height: 180px;
+    background-color: rgb(85, 205, 224);
+}
+.main-head{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 220px;
+    grid-gap: 40px;
+}
+.main-body-news{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom:10px;
+}
+.main-email{
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    display: inline-block;
+    text-align: left;
+    margin-left:-15px;
+}
+ 
+.main-send{
+    border-bottom: 1px solid gainsboro;
+   padding:15px;
+   width: 363px;
+   
+}
